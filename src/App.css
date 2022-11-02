@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.App{
+  font-family: 'Poppins', sans-serif;
+}
+.App-header {
+  background-color:#201C1DEB;
+  max-width: 926px;
+  margin: 0 auto;
+  display: flex;
+  color: white;
+}
+
+.logo{
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.App-header>.navbar>ul>li{
+  list-style-type: none;
+}
+
+.App-header>.navbar>ul{
+  display: flex;
+}
+
+.App-header>.navbar>ul>li{
+  margin-left: 36px;
+  cursor: pointer;
+}
+
+.navbar{
+  margin-left: 100px;
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navbar>ul>li:hover{
+  color: #F3E9C6;
+
+}
+
+.search-button{
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 17px;
+  gap: 5px;
+
+
+}
+
+.search-button>form>input{
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 29px;
+  width: 120px;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+}
+
+.search-button>form>button{
+  padding-bottom: 3px;
+  font-size: 10px;
+  height: 35px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  cursor: pointer;
+}
+
+.App-container{
+  background-image: url("file:///C:/Users/Chingiz/Desktop/React/project/public/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 926px;
+  margin: 0 auto;
+}
+
+.main-banner{
+  display: flex;
+  margin-left: 59px;
+}
+
+.left-arrow{
+  margin-top: 295px;
+  cursor: pointer;
+}
+
+.banner{
+  margin-top: 117px;
+  margin-left: 34px;
+  cursor: pointer;
+}
+
+.right-arrow{
+  margin-top: 295px;
+  margin-left: 34px;
+  cursor: pointer;
+}
+
+.play-button-banner{
+  margin-top: 34px;
+  display: flex;
+  background: #DD2929;
+  width: 109px;
+  height: 48px;
+  border-radius: 10px;
+  margin-left: 414px;
+  cursor: pointer;
+}
+
+.button-content{
+  color: white;
+  display: flex;
+  padding-top: 9px;
+  padding-left: 16px;
+}
+
+.button-content>img{
+  padding-top: 3px;
+}
+
+.button-content>h3{
+  padding-top: 4px;
+  margin-left: 13px;
+}
+h3{
+  margin: 0;
+}
+
+.rec-block{
+  display: block;
+  width: 150px;
+  height: 130px;
+  text-align: center;
+}
+
+.rec-block>span{
+  color: #201C1DEB;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.rec-block>img{
+  cursor: pointer;
+}
+
+.movies-recommendation>h2{
+  color: white;
+  margin-left: 1.2%;
+}
+
+.movies-recommendation{
+  margin: 0 40px;
+}
+
+.movie-list{
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 0;
+}
+
+.movie-list>li{
+  list-style-type: none;
+}
+
+.App-footer{
+  max-width: 926px;
+  background-color:#201C1DEB;
+  margin: 0 auto;
+  display: flex;
+}
+
+.App-footer>.logo{
+  margin-top: 10px;
+  margin-left: 90px;
+  cursor: pointer;
+}
+
+.title{
+  margin-top: 60px;
+  margin-left: 159px;
+  color: white;
+  font-size: 15px;
+}
+
+.title>p{
+  margin: 0;
+}
+
+.title>p>span{
+  color: #F3E9C6;
+  cursor: pointer;
+}
+.social-media{
+  margin-left: 135px;
+  margin-right: 85px;
+  color: white;
+  font-size: 20px;
+  width: 150px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.social-media-list{
+  display: flex;
+  padding-inline-start: 0;
+  justify-content: space-between;
+}
+
+.social-media-list>li{
+  cursor: pointer;
+}
+li{
+  list-style-type: none;
+}
