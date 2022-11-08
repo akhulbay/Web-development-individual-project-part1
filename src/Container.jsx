@@ -1,4 +1,5 @@
 import './App.css';
+import MoviesRecDiv from "./MoviesRecDiv";
 function Container() {
     return (
         <div className="Container">
@@ -20,6 +21,7 @@ function Container() {
                         <h3>Play</h3>
                     </div>
                 </div>
+                <MoviesRecDiv/>
             </div>
         </div>
     );
