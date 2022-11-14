@@ -1,4 +1,4 @@
-import './App.css';
+import '../../App.css';
 import {NavLink} from "react-router-dom";
 function Header() {
     return (
@@ -10,7 +10,7 @@ function Header() {
                 <div className="navbar">
                     <ul>
                         <li><NavLink to={"/home"} style={{textDecoration: 'none', color: 'white'}} >Home</NavLink></li>
-                        <li>Movies</li>
+                        <li><NavLink to={"/movies"} style={{textDecoration: 'none', color: 'white'}} >Movies</NavLink></li>
                         <li>Series</li>
                         <li>TV-Shows</li>
                         <li><NavLink to={"/sign-in"} style={{textDecoration: 'none', color: 'white'}} >Sign-in</NavLink></li>

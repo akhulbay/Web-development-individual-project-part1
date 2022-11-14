@@ -1,4 +1,4 @@
-import './App.css';
+import '../../App.css';
 function Registration() {
     return (
         <div className="Registration">

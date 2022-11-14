@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
-
 .app-wrapper{
   /*background-image: url("file:///C:/Users/Chingiz/Desktop/React/project/public/bg.png");*/
   margin: 0 auto;
@@ -43,6 +41,10 @@
 .navbar>ul>li:hover{
   color: #F3E9C6;
 
+}
+
+.active{
+  color: #DD2929 !important;
 }
 
 .search-button{
@@ -317,4 +319,19 @@ li{
 
 .reg-sign-in-button>h3{
   padding-top: 2px;
+}
+
+.App-movies-page-navbar{
+  background-image: url("file:///C:/Users/Chingiz/Desktop/React/project/public/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 926px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.movies-page-navbar-title{
+  color: white;
+  margin-left: 10%;
+  padding-top: 5%;
 }

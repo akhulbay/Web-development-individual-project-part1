@@ -1,5 +1,5 @@
-import './App.css';
-import MoviesRecDiv from "./MoviesRecDiv";
+import '../../App.css';
+import MoviesRecDiv from "./MoviesRec/MoviesRecDiv";
 function Container() {
     return (
         <div className="Container">

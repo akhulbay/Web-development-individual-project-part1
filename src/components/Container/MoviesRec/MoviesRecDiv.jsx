@@ -1,4 +1,4 @@
-import './App.css';
+import '../../../App.css';
 import MoviesRec from "./MoviesRec";
 function MoviesRecDiv({img, title}) {
     return (
