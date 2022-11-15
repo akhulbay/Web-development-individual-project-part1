@@ -2,7 +2,8 @@
 
 .app-wrapper{
   /*background-image: url("file:///C:/Users/Chingiz/Desktop/React/project/public/bg.png");*/
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  background-color: black;
   font-family: 'Poppins', sans-serif;
 }
 .App-header {
@@ -321,17 +322,84 @@ li{
   padding-top: 2px;
 }
 
-.App-movies-page-navbar{
+.App-movies-page {
   background-image: url("file:///C:/Users/Chingiz/Desktop/React/project/public/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 926px;
   margin: 0 auto;
-  height: 100vh;
+  height: auto;
+}
+.App-movies-page-navbar{
+  display: flex;
 }
 
 .movies-page-navbar-title{
   color: white;
   margin-left: 10%;
-  padding-top: 5%;
+  padding-top: 2%;
+}
+
+.movies-category{
+  margin-left: 3%;
+  padding-top: 4.7%;
+}
+
+.movies-category>form{
+  display: flex;
+  color: white;
+}
+
+.movies-category>form>input{
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.hide-div{
+  display: none;
+}
+.hidden-categories{
+  z-index: 1;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 25px;
+  font-weight: bold;
+  width: 500px;
+  text-align: center;
+  color: white;
+  margin-left: 14%;
+  margin-top: 10%;
+  border-radius: 10px;
+}
+
+.hidden-categories>ul{
+  padding-inline-start: 0;
+}
+
+.hidden-categories>ul>li{
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+.movies-by-categories{
+  margin-left: 10%;
+  border: 1px solid rebeccapurple;
+  max-width: 750px;
+
+}
+
+.movies-by-categories-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-body{
+  box-sizing: content-box;
+}
+
+.card-body>h5{
+  color: white;
+  text-align: center;
+  margin: 0;
 }
