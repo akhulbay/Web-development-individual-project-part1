@@ -6,7 +6,7 @@ function MoviesPage() {
         <div className="MoviesPage">
             <div className="App-movies-page">
                 <NavBar/>
-                <MoviesList/>
+                {/*<MoviesList/>*/}
             </div>
         </div>
     );

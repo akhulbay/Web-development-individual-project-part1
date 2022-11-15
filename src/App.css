@@ -328,7 +328,7 @@ li{
   background-size: cover;
   max-width: 926px;
   margin: 0 auto;
-  height: auto;
+  height: 100vh;
 }
 .App-movies-page-navbar{
   display: flex;
@@ -345,12 +345,22 @@ li{
   padding-top: 4.7%;
 }
 
+.input-category{
+  border: 1px solid red;
+}
+
 .movies-category>form{
   display: flex;
   color: white;
+  padding-top: 1%;
 }
 
 .movies-category>form>input{
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
   background-color: transparent;
   outline: none;
   border: none;
@@ -384,7 +394,6 @@ li{
 
 .movies-by-categories{
   margin-left: 10%;
-  border: 1px solid rebeccapurple;
   max-width: 750px;
 
 }
@@ -394,12 +403,15 @@ li{
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.card-body{
-  box-sizing: content-box;
+
+.card-body>img{
+  margin-left: 7%;
+  cursor: pointer;
 }
 
 .card-body>h5{
   color: white;
   text-align: center;
   margin: 0;
+  cursor: pointer;
 }
